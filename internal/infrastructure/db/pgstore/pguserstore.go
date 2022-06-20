@@ -23,7 +23,6 @@ type Users struct {
 }
 
 func NewUsers(db *sql.DB) *Users {
-
 	un := &Users{
 		db: db,
 	}
